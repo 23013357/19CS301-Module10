@@ -66,7 +66,7 @@ def fun(n):
 print(f"Stack after rotation {stack}")
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/f42c4ec6-578c-418a-8f66-cf70abe7dc54)
+![image](https://github.com/23013357/19CS301-Module10/blob/main/e.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
