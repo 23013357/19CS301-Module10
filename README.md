@@ -138,5 +138,47 @@ for i in range(4):
  
 
 ### Result: Thus, the given program is implemented and executed successfully .
+
+### EX: 10.4 MUTIPROCESSING OF QUEUE
+### Aim: To  python program to display the colors and the number of colors the user provided using multiprocessing library
+### Algorithm:
+
+Start.
+
+Take n as input for the number of colors.
+
+Append n colors entered by the user into the list colors.
+
+Initialize a queue and add each color to the queue, incrementing the counter cnt.
+
+Print the counter cnt (number of colors).
+
+Retrieve and print each color from the queue.
+
+Stop.
+### Program:
+```
+
+from multiprocessing import Queue
+
+colors=[]
+cnt=0
+queue=Queue()
+n=int(input())
+colours=[]
+for i in range(n):
+    colors.append(input())
+for color in colors:
+    queue.put(color)
+    cnt+=1
+print('count-',cnt)
+for i in range(n):
+    print(queue.get())
+```
+### Output:
+ ![image](https://github.com/user-attachments/assets/26a380ff-118e-43f4-8178-83a5417262b5)
+ 
+
+### Result: Thus, the given program is implemented and executed successfully .
  
 
