@@ -176,7 +176,7 @@ for i in range(n):
     print(queue.get())
 ```
 ### Output:
- ![image](https://github.com/user-attachments/assets/26a380ff-118e-43f4-8178-83a5417262b5)
+ ![image](https://github.com/23013357/19CS301-Module10/blob/main/MODUL%2010.png)
  
 
 ### Result: Thus, the given program is implemented and executed successfully .
