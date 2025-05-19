@@ -1,6 +1,7 @@
 # 19CS301-Module10
 ###EX: 10.a  STACK
-### Aim: To Write a python program to get the integer values from the user and push only the odd number into the stack and later pop the last 2 elements
+### Aim: 
+To Write a python program to get the integer values from the user and push only the odd number into the stack and later pop the last 2 elements
 ### Algorithm:
 STEP 1: Start.
 
@@ -36,7 +37,8 @@ for i in range(2):
 
 
 ### EX: 10.2 IMPLEMENTATION OF STACK
-### Aim: To Write a python program to implement the stack using deque method for rotating the stack.
+### Aim: 
+To Write a python program to implement the stack using deque method for rotating the stack.
 ### Algorithm:
 
 STEP 1: Start.
@@ -73,7 +75,8 @@ print(f"Stack after rotation {stack}")
 
 
 EX: 10.3 QUEUE
-### Aim: To Write a python program to implement the stack using deque method for rotating the stack.
+### Aim: 
+To Write a python program to implement the stack using deque method for rotating the stack.
 ### Algorithm:
 
 STEP 1: Start.
@@ -108,7 +111,8 @@ print(stack)
 
 
 ### EX: 10.4 IMPLEMENTATION OF QUEUE
-### Aim: To Develop a python program to get the 4 integer values from user and display the values using multiprocessing library
+### Aim: 
+To Develop a python program to get the 4 integer values from user and display the values using multiprocessing library
 ### Algorithm:
 
 STEP 1: Start.
@@ -139,8 +143,9 @@ for i in range(4):
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
-### EX: 10.4 MUTIPROCESSING OF QUEUE
-### Aim: To  python program to display the colors and the number of colors the user provided using multiprocessing library
+### EX: 10.5 MUTIPROCESSING OF QUEUE
+### Aim: 
+To  python program to display the colors and the number of colors the user provided using multiprocessing library
 ### Algorithm:
 
 Start.
