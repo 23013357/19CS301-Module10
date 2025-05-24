@@ -36,7 +36,7 @@ for i in range(2):
  
 
 
-### EX: 10.2 IMPLEMENTATION OF STACK
+### EX: 10.b IMPLEMENTATION OF STACK
 ### Aim: 
 To Write a python program to implement the stack using deque method for rotating the stack.
 ### Algorithm:
@@ -74,7 +74,7 @@ print(f"Stack after rotation {stack}")
  
 
 
-EX: 10.3 QUEUE
+EX: 10.c QUEUE
 ### Aim: 
 To Write a python program to sort the 5 float values in the Queue in descending order
 ### Algorithm:
@@ -123,7 +123,7 @@ while (q.empty() == False):
 ### Result: Thus, the given program is implemented and executed successfully .
 
 
-### EX: 10.4 IMPLEMENTATION OF QUEUE
+### EX: 10.d IMPLEMENTATION OF QUEUE
 ### Aim: 
 To Develop a python program to get the 4 integer values from user and display the values using multiprocessing library
 ### Algorithm:
@@ -156,7 +156,7 @@ for i in range(4):
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
-### EX: 10.5 MUTIPROCESSING OF QUEUE
+### EX: 10.e MUTIPROCESSING OF QUEUE
 ### Aim: 
 To  python program to display the colors and the number of colors the user provided using multiprocessing library
 ### Algorithm:
