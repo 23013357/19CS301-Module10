@@ -118,7 +118,7 @@ while (q.empty() == False):
     q.get()  
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/de6e3e09-b10b-42d4-9faf-32fcf990f29a)
+![image](https://github.com/23013357/19CS301-Module10/blob/main/lk.png)
  
 ### Result: Thus, the given program is implemented and executed successfully .
 
