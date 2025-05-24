@@ -1,5 +1,5 @@
 # 19CS301-Module10
-###EX: 10.a  STACK
+### EX: 10.a  STACK
 ### Aim: 
 To Write a python program to get the integer values from the user and push only the odd number into the stack and later pop the last 2 elements
 ### Algorithm:
@@ -76,33 +76,46 @@ print(f"Stack after rotation {stack}")
 
 EX: 10.3 QUEUE
 ### Aim: 
-To Write a python program to implement the stack using deque method for rotating the stack.
+To Write a python program to sort the 5 float values in the Queue in descending order
 ### Algorithm:
 
-STEP 1: Start.
+Start.
 
-STEP 2: Import collections and import deque.
+Read 5 floating-point numbers and enqueue them.
 
-STEP 3: Create a stack and a variable n.
+Repeat for each element in the queue:
 
-STEP 4: Get the number of inputs from user.
+Dequeue an element x.
 
-STEP 5: Using a loop get the inputs from user.
+For the remaining elements, dequeue y, compare with x, enqueue the larger, keep the smaller in x.
 
-STEP 6: Append the even and unique elements in the stack.
+Enqueue x back to the queue.
 
-STEP 7: Print the result.
+Print all elements from the queue in order.
+
+End
+
 ### Program:
 ```
-import collections
-stack = collections.deque([])
-n = int(input())
-for i in range(n):
-       x = int(input())
-        if x not in stack:
-          if x%2==0:
-             stack.appendleft(x)
-print(stack)
+import queue  
+q = queue.Queue() 
+for i in range(5):
+    q.put(float(input()))  
+
+n =  q.qsize()  
+for i in range(n):  
+    x = q.get()  
+    for j in range(n-1):  
+        y = q.get()  
+        if x < y :  
+            q.put(y)  
+        else:  
+            q.put(x)  
+            x = y     
+    q.put(x)  
+while (q.empty() == False):   
+    print(q.queue[0], end = " ")    
+    q.get()  
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/de6e3e09-b10b-42d4-9faf-32fcf990f29a)
